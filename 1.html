@@ -1,0 +1,1629 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+
+     /* Enhance the look of the textarea expanding animation */
+     .animated {
+        -webkit-transition: height 0.2s;
+        -moz-transition: height 0.2s;
+        transition: height 0.2s;
+      }
+
+      .stars {
+        margin: 20px 0;
+        font-size: 24px;
+        color: #d17581;
+      }
+  </style>
+  <style type="text/css">
+    .thumbnail{ padding: 0;}
+
+    .carousel-control, .item{
+         border-radius: 4px;
+     }
+
+    .caption{
+        height: 130px;
+        overflow: hidden;
+    } 
+
+    .caption h4
+    {
+        white-space: nowrap;
+    }
+
+    .thumbnail img{
+      width: 100%;
+    }
+
+    .ratings 
+    {
+        color: #d17581;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+    }
+
+    footer{
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">Helena's shop</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Бісероплетіння(Beading)</a>
+                    <a href="#" class="list-group-item">Вишивання(Embroidery)</a>
+                    <a href="#" class="list-group-item">Квітникарство(Floriculture)</a>
+                </div>
+            </div>
+        <div class="col-md-9">
+            <div class="thumbnail">
+              <img src="image/2.png" alt="">
+              <div class="caption-full">
+                  <h4 class="pull-right">300 UAH</h4>
+                  <h4>Криза синьо-чорна. Ethnic necklace blue-black</h4>
+                  <p></p>
+                  <p></p>
+              </div>
+              <div class="ratings">
+                  <p class="pull-right">1216 reviews</p>
+                  <p>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                        3.9 stars
+                  </p>
+              </div>
+            </div>
+            <div class="well" id="reviews-anchor">
+              <div class="row">
+                <div class="col-md-12">
+                                                                      </div>
+              </div>
+              <div class="text-right">
+                <a href="#reviews-anchor" id="open-review-box" class="btn btn-success btn-green">Leave a Review</a>
+              </div>
+              <div class="row" id="post-review-box" style="display:none;">
+                <div class="col-md-12">
+                  <form method="POST" action="http://demos.maxoffsky.com/shop-reviews/products/1" accept-charset="UTF-8"><input name="_token" type="hidden" value="RF85xFXxSHxGabpWDPrMVjH6IxL8jwRiZGMCA7Ao">                  <input id="ratings-hidden" name="rating" type="hidden">                  <textarea rows="5" id="new-review" class="form-control animated" placeholder="Enter your review here..." name="comment" cols="50"></textarea>                  <div class="text-right">
+                    <div class="stars starrr" data-rating="0"></div>
+                    <a href="#" class="btn btn-danger btn-sm" id="close-review-box" style="display:none; margin-right:10px;"> <span class="glyphicon glyphicon-remove"></span>Cancel</a>
+                    <button class="btn btn-success btn-lg" type="submit">Save</button>
+                  </div>
+                </form>                </div>
+              </div>
+
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 hours ago</span> 
+                    
+                    <p>dsdsad oalak jakaka ma</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">5 hours ago</span> 
+                    
+                    <p>????????
+??~</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">18 hours ago</span> 
+                    
+                    <p>saasdfadsfasdfadsf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">18 hours ago</span> 
+                    
+                    <p>asdasdasfzddgadvgadfg</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">18 hours ago</span> 
+                    
+                    <p>teasdasdasdasdasd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">18 hours ago</span> 
+                    
+                    <p>testtesttest</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 day ago</span> 
+                    
+                    <p>Great tutorials</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 day ago</span> 
+                    
+                    <p>This is great</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 days ago</span> 
+                    
+                    <p>du jude du arsch </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 days ago</span> 
+                    
+                    <p>safafafasf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 days ago</span> 
+                    
+                    <p>?????? ?????? ???????</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 days ago</span> 
+                    
+                    <p>dsfsdfsfssdfsfsfdsfsdfs</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">4 days ago</span> 
+                    
+                    <p>jhjhjnjnjjuhgfdszsdxfghjkl</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">5 days ago</span> 
+                    
+                    <p>yeahhhhhhhhhhhh</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">5 days ago</span> 
+                    
+                    <p>ciao ciao ciao</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">5 days ago</span> 
+                    
+                    <p>worst... product... EVER!</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">5 days ago</span> 
+                    
+                    <p>10/10 would tutor again</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>sfddfsdfsdfsdfsdf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhiiiiiiiiiiiiiiiiiiiiiiuuuuuuuuuuuuuuuuuuuuuuuuukkkkkkkkkkkkkklllllllllll</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh                                          </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>thinsosneoapfa
+fajioaj</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>gg gfsdgsdf   ggg s</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>Nice product</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>hi this is a nice product</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>hi blah blah b</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>this is my review</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>test puropse</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>Hulaa hulaa hulaa</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>hurray hurray hurray</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>s;fvmldfsnbvsnlbns</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>jnlkn j klnlknlhhjhj</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>564564654654654</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>adfgdsfdssdfgsdfgdsfgdsfgsdfg</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>asrrsg9oiwlergnakjsnfsfg</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>zsdlifahroiulknnkljafd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>Xczxccvsdsdxczxc</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 week ago</span> 
+                    
+                    <p>asdfjasdlkf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>jouiou sddfasdfasdf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>????????????</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p> uugyojuyiyuuiyioyo</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>xgghcxcbcb</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>asdcxvxcvxcvxcvxcvxcvxcv</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>wdwswwaAAAAAAA</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>21321312 xxxxxxxxx</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>8lo7o87o87</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>fdasfsdfdsf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>;;;;;;;;;;;;;;;;;;;;</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">2 weeks ago</span> 
+                    
+                    <p>kjhhkljhkl
+</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>adsfsfffjfjfjfjfjfjfjfjf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>pppppppppppppppp</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>Lorem Ipsum dolor
+</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>hello review</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>sadas asdas das asdasd </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>zdfadsasdasdasdadadadad</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>I like it Great job</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>tesyiskllj</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>Hola muy bueno</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">3 weeks ago</span> 
+                    
+                    <p>ghfghfgh qeqweqwe</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p>nice nice nice and thx</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p> sdfjs&ouml;f n&ouml;N &ccedil;df&ccedil; &ccedil; df </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p>blabla captan</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p>hhhhhhhjjjjjjjjjjjjjjjjjbb
+</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">4 weeks ago</span> 
+                    
+                    <p>faltu :3, purai faltu. ekkebare bogus!!! </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>test test test test </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>sddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>sddddddddddddddddddddddddddddddddddddddddd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>yo waddup mang</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>dsssssssssssssssssssssssssssssssss</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>fadfasdf asdf asdf asf afd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>dsdsdsdsdssssssssssssssssssss</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>96666666666666666666666</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>This is a short description asdf as This is a short description asdf as
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>fdfddffddddddddddddddd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>2
+test de tttttttt</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>ttttteeeeeesssssssstttttttttttttt. thanks</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>te s ds dss sd gsd gs gsd</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>TestTestTestTestTestTest</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>tv,ll,l,l,l,</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>rererre re rer er er er erererer </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>test ? test test ?</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>The comment must be at least 10 characters.</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>good product</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>Bon produit</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>abc ... nbnbk h jghufyf ghvkhg jbkjnll;k.</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>asfasfasfasfasfasfasfasfsaf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>tesrhe comment must be at least 10 characters</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>something </p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>Mis comentarios demo</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>lol hihi lol</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>Hj hhj hhj hj</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>fdsfsdfsdf</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>Prueba del sistema</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p> BlahBlahBlahBlahBlahBlah</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>this is nice</p>
+                  </div>
+                </div>
+                            <hr>
+                <div class="row">
+                  <div class="col-md-12">
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                                          <span class="glyphicon glyphicon-star-empty"></span>
+                    
+                    Anonymous <span class="pull-right">1 month ago</span> 
+                    
+                    <p>great hahahahahah</p>
+                  </div>
+                </div>
+                            <ul class="pagination">
+			<li class="disabled"><span>&laquo;</span></li><li class="active"><span>1</span></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=2">2</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=3">3</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=4">4</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=5">5</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=6">6</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=7">7</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=8">8</a></li><li class="disabled"><span>...</span></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=12">12</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=13">13</a></li><li><a href="http://demos.maxoffsky.com/shop-reviews/products/1?page=2">&raquo;</a></li>	</ul>
+            </div>
+        </div>
+
+    </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-md-12">
+            Created by <a href="http://maxoffsky.com" target="_blank">Maks</a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+
+    <script type="text/javascript" src='//code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
+      <script src="http://demos.maxoffsky.com/shop-reviews/js/expanding.js"></script>
+  <script src="http://demos.maxoffsky.com/shop-reviews/js/starrr.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+
+      // initialize the autosize plugin on the review text area
+      $('#new-review').autosize({append: "\n"});
+
+      var reviewBox = $('#post-review-box');
+      var newReview = $('#new-review');
+      var openReviewBtn = $('#open-review-box');
+      var closeReviewBtn = $('#close-review-box');
+      var ratingsField = $('#ratings-hidden');
+
+      openReviewBtn.click(function(e)
+      {
+        reviewBox.slideDown(400, function()
+          {
+            $('#new-review').trigger('autosize.resize');
+            newReview.focus();
+          });
+        openReviewBtn.fadeOut(100);
+        closeReviewBtn.show();
+      });
+
+      closeReviewBtn.click(function(e)
+      {
+        e.preventDefault();
+        reviewBox.slideUp(300, function()
+          {
+            newReview.focus();
+            openReviewBtn.fadeIn(200);
+          });
+        closeReviewBtn.hide();
+        
+      });
+
+      // If there were validation errors we need to open the comment form programmatically 
+      
+      // Bind the change event for the star rating - store the rating value in a hidden field
+      $('.starrr').on('starrr:change', function(e, value){
+        ratingsField.val(value);
+      });
+    });
+  </script>
+
+</body>
+</html>

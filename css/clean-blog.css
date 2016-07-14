@@ -211,12 +211,12 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: pink;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: lightblue;
 }
 .post-preview > a > .post-title {
   font-size: 30px;
